@@ -1,17 +1,52 @@
-* {
-  margin:0px;
-  padding:0px;
+*{margin: 0;}
+
+.title-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column; 
+}
+.title-image {
+  width: 100%; 
+  height: auto; 
+}
+.title {
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  display: flex;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
+.recipe-info {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;}
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+  .title-image {
+    width: 100%;
+    height: auto;}
+
+    .Text {
+      font-size: 1.5em;
+      margin: 30px;
+      justify-content: center;
+      display: flex;}
+
+      .list {
+        list-style: none;
+        gap: 10px;
+      }
+
+    .instruction {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .list2 {
+      list-style: none;
+    }
